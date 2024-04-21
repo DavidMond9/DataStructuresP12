@@ -10,7 +10,6 @@ import edu.ncsu.csc316.dsa.Highway;
 import edu.ncsu.csc316.dsa.graph.Graph.Edge;
 import edu.ncsu.csc316.dsa.graph.Graph.Vertex;
 import edu.ncsu.csc316.dsa.list.positional.PositionalList;
-import edu.ncsu.csc316.dsa.map.Map;
 
 /**
  * Test class for MinimumSpanningTreeUtil

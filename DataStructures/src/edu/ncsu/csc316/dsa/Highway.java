@@ -16,6 +16,9 @@ public class Highway implements Weighted {
     public int getLength() {
         return length;
     }
+    public String getName() {
+    	return name;
+    }
 
     public void setLength(int length) {
         this.length = length;

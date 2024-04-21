@@ -39,7 +39,7 @@ public class MinimumSpanningTreeUtil {
      * 
      * @param <V>   the type of data in the graph vertices
      * @param <E>   the type of data in the graph edges
-     * @param graph the graph for which to compute a minimum spanning tree
+     * @param g the graph for which to compute a minimum spanning tree
      * @return a positional list of minimum spanning tree edges
      */
     public static <V, E extends Weighted> PositionalList<Edge<E>> kruskal(Graph<V, E> g) {
@@ -74,7 +74,7 @@ public class MinimumSpanningTreeUtil {
      * 
      * @param <V>   the type of data in the graph vertices
      * @param <E>   the type of data in the graph edges
-     * @param graph the graph for which to compute a minimum spanning tree
+     * @param g the graph for which to compute a minimum spanning tree
      * @return a positional list of minimum spanning tree edges
      */
     public static <V, E extends Weighted> PositionalList<Edge<E>> primJarnik(Graph<V, E> g) {
